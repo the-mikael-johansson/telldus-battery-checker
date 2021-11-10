@@ -1,0 +1,17 @@
+﻿{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "ConsumerKey": "",
+        "ConsumerKeySecret": "",
+        "AccessToken": "",
+        "AccessTokenSecret": "",
+        "TimeTrigger": "0 0 * * * *",
+        "SendGrid_ApiKey": "",
+        "SendGrid_FromName": "",
+        "SendGrid_FromAddress": "",
+        "SendGrid_ToName": "",
+        "SendGrid_ToAddress": ""
+    }
+}
