@@ -24,7 +24,7 @@ When working locally, you need to configure `local.settings.json`. That file is 
 - Create a new Function App that you can deploy to by reading [this guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio)
 - Open the solution file in Visual Studio, right-click on the SensorBatteryChecker project and select Publish > Publish to Azure...
 - Sign in to Azure and select your newly created Function App.
-- Configure environment variables (SendGrid not enabled in this image):
+- Configure environment variables:
   ![Configuration](Docs/cloud-config.png)
 - Restart your Function App from the Overview page.
 
