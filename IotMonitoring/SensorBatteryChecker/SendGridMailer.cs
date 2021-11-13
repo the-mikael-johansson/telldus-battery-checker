@@ -12,6 +12,10 @@ namespace SensorBatteryChecker
             string plainTextContent,
             string htmlContent)
         {
+            if (!configuration.Enabled)
+            {
+                return null;
+            }
             var client = new SendGridClient(configuration.ApiKey);
             var from = new EmailAddress(configuration.FromName, configuration.FromAddress);
             var to = new EmailAddress(configuration.ToAddress, configuration.ToName);

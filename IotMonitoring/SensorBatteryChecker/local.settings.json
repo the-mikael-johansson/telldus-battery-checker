@@ -8,6 +8,7 @@
         "AccessToken": "",
         "AccessTokenSecret": "",
         "TimeTrigger": "0 0 * * * *",
+        "SendGrid_Enabled": "false",
         "SendGrid_ApiKey": "",
         "SendGrid_FromName": "",
         "SendGrid_FromAddress": "",

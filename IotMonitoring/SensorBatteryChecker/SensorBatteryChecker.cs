@@ -14,6 +14,7 @@ namespace SensorBatteryChecker
     {
         /// <summary>
         /// "0 * * * * *" = every minute, "0 0 * * * *" = every hour
+        /// Do not poll more than each 15 minute
         /// </summary>
         /// <param name="timer"></param>
         /// <param name="logger"></param>
