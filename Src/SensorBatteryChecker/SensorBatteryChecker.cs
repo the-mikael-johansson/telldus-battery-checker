@@ -20,7 +20,11 @@ namespace SensorBatteryChecker
         /// <param name="logger"></param>
         [FunctionName("SensorBatteryChecker")]
         public static async Task Run(
-            [TimerTrigger("%TimeTrigger%")] TimerInfo timer,
+            [TimerTrigger("%TimeTrigger%"
+#if DEBUG
+            , RunOnStartup=true
+#endif
+            )] TimerInfo timer,
             ILogger logger)
         {
             if (timer.IsPastDue)
