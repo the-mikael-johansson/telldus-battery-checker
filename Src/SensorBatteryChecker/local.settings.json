@@ -3,23 +3,13 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "ConsumerKey": "",
-    "ConsumerKeySecret": "",
-    "AccessToken": "",
-    "AccessTokenSecret": "",
-    "TimeTrigger": "0 0 * * * *",
-    "SendGrid_Enabled": "false",
-    "SendGrid_ApiKey": "",
-    "SendGrid_FromName": "",
-    "SendGrid_FromAddress": "",
-    "SendGrid_ToName": "",
-    "SendGrid_ToAddress": ""
+    "TimeTrigger": "0 0/20 * * * *"
   },
   "fileLoggingMode": "always",
   "logLevel": {
     "default": "Information",
     "Host.Results": "Error",
-    "Function": "Trace",
-    "Host.Aggregator": "Trace"
+    "Function": "Information",
+    "Host.Aggregator": "Information"
   }
 }

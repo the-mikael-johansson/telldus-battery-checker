@@ -1,15 +1,16 @@
 ﻿{
-    "version": "2.0",
+  "version": "2.0",
   "logging": {
     "fileLoggingMode": "always",
     "logLevel": {
       "default": "Information",
       "Host.Results": "Error",
-      "Function": "Trace",
-      "Host.Aggregator": "Trace"
+      "Function": "Warning",
+      "Host.Aggregator": "Warning",
+      "Microsoft": "Warning",
+      "Worker": "Warning"
     },
     "applicationInsights": {
-      "samplingExcludedTypes": "Request",
       "samplingSettings": {
         "isEnabled": true
       }
